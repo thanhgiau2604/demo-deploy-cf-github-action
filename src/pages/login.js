@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
     <div className="app">
       <h1>Login page</h1>
-      <a href="/signup">Go to signup</a>
-      <a href="/">Back home</a>
+      <Link to="/signup">Go to signup</Link>
+      <Link to="/">Back home</Link>
     </div>
   );
 };
